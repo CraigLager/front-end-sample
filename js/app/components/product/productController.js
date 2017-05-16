@@ -4,6 +4,7 @@ app.controller("productController", [
         $scope.init = function() {
         	    $product.get($routeParams.id, function(res){
         	    	$scope.product = res;
+        	    	console.log("product", $scope.product);
         		})
         };
     }

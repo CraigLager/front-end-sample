@@ -3,13 +3,14 @@ app.controller("categoryController", [
 
         $scope.init = function() {
         	$category.get($routeParams.id, function(res){
-        		console.log(res);
         		$scope.category = res;
-
-        		$scope.category.products = [];
+                console.log("category", $scope.category);
+        		
+                $scope.category.products = [];
         		$scope.category.productIds.forEach(function(id){
         			$product.get(id, function(product){
         				$scope.category.products.push(product);
+                        console.log("category.products[" + ($scope.category.products.length -1) + "]", product);
         			})
         		})
 
