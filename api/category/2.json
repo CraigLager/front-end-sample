@@ -1,0 +1,6 @@
+{
+	"id":2,
+	"title":"For Her",
+	"content":"Same content for category 2",
+	"productIds": [2,4,6,8]
+}

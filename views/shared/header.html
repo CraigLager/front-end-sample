@@ -1,0 +1,9 @@
+<div ng-controller="homeController" ng-init="init()">
+
+<a href="#/">home</a>
+	<ul>
+		<li ng-repeat="category in categories | orderBy:'id'"><a ng-href="#/category/{{category.id}}">{{category.title}}</a></li>
+	</ul>
+</div>
+
+<hr/>

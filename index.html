@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<base href="/">
+	</head>
+	<body ng-app="app">
+
+		<div ng-include="'/views/shared/header.html'"></div>
+
+		<ng-view>
+		</ng-view>
+
+		<div ng-include="'/views/shared/footer.html'"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js"></script>
+
+		<!-- libs -->
+		<!-- app -->
+		<script src="/js/app/app.js"></script>
+
+		<!-- modules -->
+
+		<!-- shared -->
+
+		<!-- components -->
+		<script src="/js/app/components/category/categorycontroller.js"></script>
+		<script src="/js/app/components/category/categoryservice.js"></script>
+		<script src="/js/app/components/home/homecontroller.js"></script>
+		<script src="/js/app/components/product/productcontroller.js"></script>
+		<script src="/js/app/components/product/productservice.js"></script>
+		
+	</body>
+</html>
