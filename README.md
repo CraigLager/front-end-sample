@@ -15,7 +15,7 @@ Use of SASS, LESS, and any other build tools you want are permitted. However, wh
 ## Angular
 This project uses angular, however you won't need to dig into any JS files to make it work. Samples are included in the views for rendering data. If you know more advanced angular techniques, feel free to show off, but it is not required.
 
-For reference, here are the few bits of angular syntax already included, which should be everything you need:
+For reference, here are explanations for the few bits of angular syntax already included, which should be everything you need:
 
 ### ng-controller
 Defines which variables are available to the markup inside this element. The javascript console will output things from different controller files, which match up to these controller declarations. For example
