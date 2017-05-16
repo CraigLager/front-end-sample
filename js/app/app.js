@@ -47,7 +47,3 @@ app.config(['$locationProvider', function($locationProvider) {
 }]);
 
 
-// utility functions
-function isFunction(possibleFunction) {
-    return typeof (possibleFunction) === typeof (Function);
-}

@@ -1,0 +1,1 @@
+Each section of the site should have a folder in here

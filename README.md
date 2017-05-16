@@ -1,1 +1,1 @@
-# front-end-sample test commit
+# Front End Basic template

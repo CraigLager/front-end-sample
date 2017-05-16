@@ -1,0 +1,1 @@
+javascript libraries which are not angular specific (moment etc)
