@@ -1,6 +1,6 @@
 {
 	"id":4,
 	"title":"Fun Gifts",
-	"content":"Same content for category 2",
+	"content":"Some content for category 2",
 	"productIds": [1,4,7]
 }
