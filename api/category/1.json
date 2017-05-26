@@ -1,6 +1,6 @@
 {
 	"id":1,
 	"title":"For Him",
-	"content":"Same content for category 1",
+	"content":"Some content for category 1",
 	"productIds": [1,3,5,7,9]
 }
