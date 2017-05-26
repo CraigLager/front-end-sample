@@ -3,7 +3,7 @@
 	<div>{{category.content}}</div>
 
 	<ul>
-		<li ng-repeat="product in category.products | orderBy:id"><a ng-href="#/product/{{product.id}}"><img ng-src="{{product.thumbnail}}"/> {{product.title}}</li>
+		<li ng-repeat="product in category.products | orderBy:id"><a ng-href="#/product/{{product.id}}"><img ng-src="{{product.thumbnail}}"/> {{product.title}}</a></li>
 	</ul>
 
 </div>
