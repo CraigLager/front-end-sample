@@ -1,7 +1,7 @@
 # Front End Basic Template
 
 ## Running this template
-You need a webserver in any sort of flavour. There are no dependencies on any server side languages, the whole sample is essentially a static site. The [chrome web server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) is excellent.
+You need a webserver in any sort of flavour. There are no dependencies on any server side languages, the whole sample is essentially a static site. The [chrome web server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) is excellent. Make sure that index.html is loaded as the default document.
 
 ## What you should be editing
 Any files within `/views` and `/css` can be freely edited. Feel free to add new files as needed.
